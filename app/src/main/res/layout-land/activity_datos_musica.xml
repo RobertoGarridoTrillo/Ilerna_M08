@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio_landscape_blur_compressor"
+    tools:context=".Activity_datos_musica">
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textviewInicio"
+        android:layout_marginTop="16dp"
+        android:text="@string/textviewDatosMusica"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textoPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNombre"
+        style="@style/texto"
+        android:hint="@string/nombreHint"
+        app:layout_constraintBottom_toTopOf="@+id/textNombreRecibido"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNombreRecibido"
+        style="@style/textoRecibido"
+        app:layout_constraintBottom_toTopOf="@+id/textoApellido"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNombre" />
+
+    <TextView
+        android:id="@+id/textoApellido"
+        style="@style/texto"
+        android:hint="@string/apellidosHint"
+        app:layout_constraintBottom_toTopOf="@+id/textoApellidoRecibido"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNombreRecibido" />
+
+    <TextView
+        android:id="@+id/textoApellidoRecibido"
+        style="@style/textoRecibido"
+        app:layout_constraintBottom_toTopOf="@+id/textoUsuario"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoApellido" />
+
+    <TextView
+        android:id="@+id/textoUsuario"
+        style="@style/texto"
+        android:hint="@string/usuarioHint"
+        app:layout_constraintBottom_toTopOf="@+id/textoUsuarioRecibido"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoApellidoRecibido" />
+
+    <TextView
+        android:id="@+id/textoUsuarioRecibido"
+        style="@style/textoRecibido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoUsuario" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="435dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="277dp" />
+
+    <TextView
+        android:id="@+id/textoPassword"
+        style="@style/texto"
+        android:hint="@string/passwordHint"
+        app:layout_constraintBottom_toTopOf="@+id/textoPasswordRecibido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textoPasswordRecibido"
+        style="@style/textoRecibido"
+        app:layout_constraintBottom_toTopOf="@+id/textoEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textoPassword" />
+
+    <TextView
+        android:id="@+id/textoEmail"
+        style="@style/texto"
+        android:hint="@string/emailHint"
+        app:layout_constraintBottom_toTopOf="@+id/textoEmailRecibido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textoPasswordRecibido" />
+
+
+    <TextView
+        android:id="@+id/textoEmailRecibido"
+        style="@style/textoRecibido"
+        app:layout_constraintBottom_toTopOf="@+id/botonEnviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textoEmail" />
+
+    <Button
+        android:id="@+id/botonEnviar"
+        style="@style/botonIniciar"
+        android:layout_width="76dp"
+        android:layout_height="80dp"
+        android:background="@drawable/boton_inicio_custom"
+        android:text="@string/musicaOn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textoEmailRecibido" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

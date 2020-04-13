@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio_landscape_blur_compressor"
+    tools:context=".Activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textviewInicio"
+        android:text="@string/textviewHome"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/contenedorInicio"
+        app:layout_constraintEnd_toEndOf="@+id/contenedorInicio"
+        app:layout_constraintStart_toStartOf="@+id/contenedorInicio"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="405dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/logoinicial"
+        android:cropToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_dashboard" />
+
+    <LinearLayout
+        android:id="@+id/contenedorInicio"
+        android:layout_width="298dp"
+        android:layout_height="213dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="libreria">La libreria</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="logoinicial">logoInicial</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="enviar">Enviar</string>
+    <string name="nombreHint">Nombre</string>
+    <string name="apellidosHint">Apellidos</string>
+    <string name="usuarioHint">Usuario</string>
+    <string name="passwordHint">Password</string>
+    <string name="nombre">Nombre</string>
+    <string name="emailHint">Email</string>
+    <string name="textviewHome">La libreria</string>
+    <string name="textviewRegistrarse">Registro</string>
+    <string name="textviewInicio">Inicio</string>
+    <string name="textviewDatosMusica">Datos y Musica</string>
+    <string name="musicaOn">On</string>
+    <string name="musicaOff">Off</string>
+</resources>

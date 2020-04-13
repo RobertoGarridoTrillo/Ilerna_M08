@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="libreria">The library</string>
+    <string name="entrar">Login</string>
+    <string name="registrar">Sign in</string>
+    <string name="logoinicial">logoInicial</string>
+    <string name="iniciar">Start</string>
+    <string name="enviar">Send</string>
+    <string name="nombreHint">Name</string>
+    <string name="apellidosHint">Last name</string>
+    <string name="usuarioHint">User</string>
+    <string name="passwordHint">Password</string>
+    <string name="nombre">Name</string>
+    <string name="emailHint">Email</string>
+    <string name="textviewHome">The library</string>
+    <string name="textviewRegistrarse">Sign in</string>
+    <string name="textviewInicio">Start</string>
+    <string name="textviewDatosMusica">Data and Music</string>
+    <string name="musicaOn">On</string>
+    <string name="musicaOff">Off</string>
+</resources>

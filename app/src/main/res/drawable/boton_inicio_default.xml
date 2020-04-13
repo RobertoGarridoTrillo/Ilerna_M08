@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <!-- dibuja la forma del boton -->
+            <corners
+                android:radius="76dp" />
+            <gradient
+                android:angle="360"
+                android:centerColor="#00A1D1"
+                android:centerX="47%"
+                android:endColor="#A6D97D"
+                android:startColor="#FF309F"
+                android:type="linear" />
+            <stroke
+                android:width="3dp"
+                android:color="#878787" />
+        </shape>
+    </item>
+</selector>
