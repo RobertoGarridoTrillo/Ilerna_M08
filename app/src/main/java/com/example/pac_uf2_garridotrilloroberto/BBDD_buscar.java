@@ -22,7 +22,8 @@ class BBDD_buscar {
      *               BBDD_buscar.ORIGEN_REGISTRAR = "Actividad_Registrar.java"
      * @return Un objeto de tipo Usuario o un null
      */
-    Usuario buscarCampo(SQLiteDatabase db, EditText usuarioEnviado, EditText passwordEnviado, String origen) {
+    Usuario buscarCampo(SQLiteDatabase db, EditText usuarioEnviado, EditText passwordEnviado,
+                        String origen) {
         // Definimos que columnas vamos a leer
         String[] projection = {
                 BBDD_estructura.COLUMNA_NOMBRE,
